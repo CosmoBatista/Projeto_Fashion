@@ -1,0 +1,129 @@
+header{
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+ 
+}
+.Header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(1, 24, 26);
+        
+}
+.Logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.topo{
+    margin: 40;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 100px; 
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    letter-spacing: 0.20em;  
+    
+}
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(10, 68, 102);
+}
+a:hover{
+    transition: 0.8s;
+    color: white;
+}
+.New-fashion{
+    margin: 100px 250px;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    line-height: 2.0;
+}
+.New-fashion h1{
+    font-size: 40px;
+}
+.New-fashion p{
+    color: gray;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    text-align:center;
+    justify-content: center;
+    margin: 30px 200px;
+    padding: 15px;
+    
+}
+.GP{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(71, 71, 71);
+}
+.GCARD p{
+    color: gray;
+    margin: 0;
+    padding: 2px;
+}
+.Just-fashion{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: left;
+
+}
+.Just-fashion h2{
+    padding: 175px 200px 30px 200px;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.Just-fashion p{
+    padding: 10px 700px 20px 200px;
+    font-size: 20px;
+    color: white;
+}
+.Location{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+.Location iframe{
+    height: 600px;
+    width: 1490px;
+    margin: 50px auto;
+    padding: 0px;
+}
+footer{
+    margin-left: 200px;
+    margin-bottom: 30px;
+    width: 1490px;
+    padding: 25px 0;
+    font-size: 18px;
+    background: gray;
+    text-align: center;
+    color: white;
+    
+    
+}
